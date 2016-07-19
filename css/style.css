@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -44,7 +45,7 @@ body{
 }
 
 
-.blockContries{
+.blockCountries{
     position: relative;
     right: -143px;
     top: 98px;
@@ -53,8 +54,30 @@ body{
 
 .contries{
     float: right;
+    position: relative;
     margin-right: 18px;
     color: #128aa7;
+    padding-top: 45px;
+    font-size: 10px;
+}
+
+.contries img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.contries span{
+    position: absolute;
+    display: block;
+    width: 42px;
+    height: 58px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .contries figcaption,
@@ -88,22 +111,22 @@ body{
 
 .menu li{
     display: inline-block;
-    padding-left: 65px;
+    padding-left: 55px;
     font-size: 14px;
     position: relative;
+    line-height: 28px;
 }
 
 .menu li:hover ul{
     display: block;
-    position: absolute;
 }
 
 .sub-menu{
     display: none;
     width: 150px;
-    left: 55px;
-    top: 23px;
-    position: relative;
+    position: absolute;
+    left: 45px;
+    top: 29px;
     background: #343434;
     -webkit-box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.75);
@@ -124,9 +147,9 @@ body{
 .triangle{
     width: 0px;
     height: 0px;
-    top: 6px;
-    right: -12px;
     position: absolute;
+    top: 12px;
+    right: -12px;
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     border-top: 7px solid #fff;
@@ -177,3 +200,4 @@ body{
     font-size: 12px;
     color: #fff;
 }
+
