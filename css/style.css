@@ -6,7 +6,7 @@
 
 body{
     background: url(../img/background.jpg) repeat-x;
-    font-family: 'Tahoma',  'Arial, 'sans-serif'';
+    font-family: 'Tahoma',  'Arial', 'sans-serif';
 }
 
 .container{
@@ -47,50 +47,61 @@ body{
 
 .blockCountries{
     position: relative;
-    right: -143px;
+    right: 20px;
     top: 98px;
 }
 
 
 .contries{
-    float: right;
-    position: relative;
-    margin-right: 18px;
     color: #128aa7;
-    padding-top: 45px;
     font-size: 10px;
-}
-
-.contries img{
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.contries span{
-    position: absolute;
+    padding-top: 44px;
     display: block;
-    width: 42px;
-    height: 58px;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.contries figcaption,
-.contries figure{
-    font-size: 10px;
+    width: 55px;
     text-align: center;
 }
 
+.maldives{
+    background: url(../img/m_flag.png) no-repeat;
+    background-position: top center;
+    right: 8px;
+}
+
+.sri_lanka{
+    background: url(../img/s_flag.png) no-repeat;
+    background-position: top center;
+    right: 66px;
+}
+
+.butane{
+    background: url(../img/b_flag.png) no-repeat;
+    background-position: top center;
+    right: 121px;
+}
+
+.tibet{
+    background: url(../img/t_flag.png) no-repeat;
+    background-position: top center;
+    right: 177px;
+}
+
+.nepal{
+    background: url(../img/n_flag.png) no-repeat;
+    background-position: top center;
+    right: 233px;
+}
+
+.india{
+    background: url(../img/i_flag.png) no-repeat;
+    background-position: top center;
+    right: 290px;
+}
 
 .main_image img{
     border-top: 1px solid #128aa7;
     border-bottom: 1px solid #128aa7;
-    margin-top: -4px;
+    margin-top: -6px;
 }
 
 .menu{
@@ -106,12 +117,11 @@ body{
 .menu a{
     color: #fff;
     text-decoration: none;
-    line-height: 28px;
 }
 
 .menu li{
     display: inline-block;
-    padding-left: 55px;
+    padding-left: 63px;
     font-size: 14px;
     position: relative;
     line-height: 28px;
@@ -125,7 +135,7 @@ body{
     display: none;
     width: 150px;
     position: absolute;
-    left: 45px;
+    left: 53px;
     top: 29px;
     background: #343434;
     -webkit-box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.75);
